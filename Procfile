@@ -1,4 +1,6 @@
-web: python knowledge_base/build_db.py && gunicorn knowledge_base.retriever:app -b 0.0.0.0:$PORT
+web: python backend/app/build_db.py && gunicorn backend.app.retriever:app -b 0.0.0.0:$PORT
+
+
 
 
 
