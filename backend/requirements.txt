@@ -15,3 +15,5 @@ openai
 textract
 werkzeug
 spacy
+gunicorn
+
